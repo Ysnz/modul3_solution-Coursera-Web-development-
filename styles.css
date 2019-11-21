@@ -1,33 +1,72 @@
-  h1 {
-    font-size: 24px;
-    text-align: center;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    margin-bottom: 30px;
-  }
-  
 
-  .section { 
-    background-color: rgb(100, 100, 100);
-      border: 2px solid black;
-      margin-top: 20px; 
-      margin-left: 30px;
-      margin-right: 0px; 
-      padding: 3px;
-      text-align: justify;
-      position: relative;
-   }
-  
-  span {
-    font-size: 20px;
-    width: 100%;
-    font-weight: bold;
-    text-align: center;
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
   }
-  
-  #nr1  {
-    color: rgb(0, 0, 0);
-    width: 100%;
-    font-size: 20px;
+
+* {
+    box-sizing: border-box;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;    
+    overflow: hidden;
+  }
+
+  .navbar-brand {       
+    padding-left: 0;  
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+.navbar-brand h1 {    
+    font-family: 'Alfa Slab One';
+    font-size: 1.5em;
+    color: white;   
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+.text-center {
+    font-family: 'Sofia';
+    font-size: 38px;
     font-weight: bold;
+    position: relative;
+    margin-top: 55px;
+}
+
+#text {       
+    margin: 10px;
+    background-color: #635024;
+    font-family: 'Acme';   
+    position: relative;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
     text-align: center;
+    color: black;
+    font-family: 'Alfa Slab One';
+    font-weight: 100;
+    background-color: #AAA5A5;
+}
+
+#nav-list a:hover {
+    background-color: #AEAE52;   
+}
+
+.navbar-default .navbar-collapse {
+	margin-top:0px;
+	border: 0px;
+	list-style-type: none;
+}  
